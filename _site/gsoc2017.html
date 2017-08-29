@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Google Summer of Code 2017 | Best Internet Webs Page</title>
+<meta property="og:title" content="Google Summer of Code 2017" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Joel Mason" />
+<meta property="og:description" content="Joel Mason" />
+<link rel="canonical" href="http://localhost:4000/gsoc2017.html" />
+<meta property="og:url" content="http://localhost:4000/gsoc2017.html" />
+<meta property="og:site_name" content="Best Internet Webs Page" />
+<script type="application/ld+json">
+{"name":null,"description":"Joel Mason","author":null,"@type":"WebPage","url":"http://localhost:4000/gsoc2017.html","publisher":null,"image":null,"headline":"Google Summer of Code 2017","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=877ff5ecd9044a3e3fcfff1fca0d0dfb767a3a15">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Best Internet Webs Page</h1>
+          <p>Joel Mason</p>
+          <hr>
+          <span class="credits left">
+            <a href="/">home</a> |
+            <a href="https://github.com/jobjob">code</a> |
+            <a href="/posts">posts</a> |
+            <a href="/about">about</a>
+          </span>
+        </div>
+
+        <h2 id="google-summer-of-code-2017">Google Summer of Code 2017</h2>
+
+<p>I was lucky enough to participate in the Google Summer of Code (GSoC) in 2017. I was working with my mentor, and all-round hip cat <a href="https://github.com/shashi">Shashi Gowda</a>, on creating a new version of the <a href="https://julialang.org">Julia</a> package <a href="https://github.com/JuliaGizmos/Interact.jl">Interact.jl</a>.</p>
+
+<p>The new version, which has the working title <a href="https://github.com/JuliaGizmos/InteractNext.jl">InteractNext</a>, is built on top of Shashi’s cool new <a href="https://github.com/JuliaGizmos/WebIO.jl">WebIO</a> and <a href="https://github.com/JuliaGizmos/Vue.jl">Vue.jl</a> packages.</p>
+
+<p>Like Interact.jl, it enables building simple UIs for interactive data exploration, with widgets such as sliders, toggle buttons, text boxes, etc., however, while Interact is only available in IJulia, InteractNext supports Atom/Juno, Blink, Mux, as well as IJulia, and it shouldn’t be too hard to add support anywhere html/js/css can be displayed from Julia - the Julia VSCode extension could be next on the supported list.</p>
+
+<p>I had a good time, got a bit done - despite (because of?) it not actually being summer down here in Australia - and generally am glad I got involved. I most enjoyed having what felt like privileged access to some of my open source heroes in the Julia community, such as Shashi, and <a href="https://github.com/mikeinnes">Mike Innes</a>, among others.</p>
+
+<h3 id="all-teh-codez">All Teh Codez<a href="#codes"></a></h3>
+
+<p>Here’s the list of contributions made for my GSoC project, linked to the respective pull requests (PRs). PRs were made to 5 Julia packages (InteractNext, WebIO, Vue.jl, Observables, PlotlyJS.jl) and two Javascript libraries (Vue Material, and Vuex)</p>
+
+<!-- ![Commits](/pics/InteractNext_GSoC.png) -->
+<ol>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/20">WebIO.jl: Adds function to replace html contents and run scripts</a> (+29 lines added, -2 lines removed)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/22">WebIO.jl: Widget lifecycle notifications, register_renderable, nested scripts, and attrUtils</a> (+86, -6)</li>
+  <li><a href="https://github.com/sglyon/PlotlyJS.jl/pull/127">PlotlyJS.jl: Readall rename and Js loading default</a> (+7, -6)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/23">WebIO.jl: Runs WebIO.setup() using Requires.jl</a> (+35, -18)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/25">WebIO.jl: Enables string Interp into dom string macro, and spaces between attributes</a> (+8, -6)</li>
+  <li><a href="https://github.com/JuliaGizmos/Observables.jl/pull/7">Observables.jl: Adds eltype</a> (+2, -0)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/26">WebIO.jl: Css load fix</a> (+9, -7)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/27">WebIO.jl: Fix JSONification of interpolated <code class="highlighter-rouge">@js</code> function code</a> (+34, -11)</li>
+  <li><a href="https://github.com/JuliaGizmos/Vue.jl/pull/1">Vue.jl: Adds hooks to run js code during creation</a> (+55, -12)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/28">WebIO.jl: Adds kebab2camel and camel2kebab</a> (+36, -0)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/29">WebIO.jl: Multi widget display and event and command handlers updates</a> (+35, -24)</li>
+  <li><a href="https://github.com/JuliaGizmos/Vue.jl/pull/2">Vue.jl: Enables multi widget display</a> (+118, -17)</li>
+  <li><a href="https://github.com/vuematerial/vue-material/pull/1001">vue-material: Adds option to disable click based toggling</a> (+31, -26)</li>
+  <li><a href="https://github.com/vuematerial/vue-material/pull/994">vue-material: Enables md-raised class on md-button-toggle toggling</a> (+20, -2)</li>
+  <li><a href="https://github.com/vuejs/vuex/pull/918">vuex: Docs: Minor rephrasing in state.md</a> (+1, -1)</li>
+  <li><a href="https://github.com/JuliaGizmos/Observables.jl/pull/8">Observables.jl: Adds an id to the observable</a> (+14, -2)</li>
+  <li><a href="https://github.com/JuliaGizmos/Vue.jl/pull/3">Vue.jl: Redisplay of widgets and shared observables simplified</a> (+38, -77)</li>
+  <li><a href="https://github.com/JuliaGizmos/WebIO.jl/pull/30">WebIO.jl: Enables Observables to share and update across widgets</a> (+70, -25)</li>
+</ol>
+
+<p>Finally, the first 44 commits to InteractNext: <a href="https://github.com/JuliaGizmos/InteractNext.jl/tree/da51887e9f51c2dcaace7f60eb04511cca0aa049">here’s the code as it stood at the end of GSoC 2017</a> (+1501 , -628)</p>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>I’d like to thank my mentor Shashi, not just for his help during GSoC, but for his visionary work on great Julia packages such as Reactive, Interact, Observables, WebIO, and Vue (among others!).</p>
+
+<p>Also want to shout out to Julia’s creators, supporters, and contributors, this Julia thing is building…</p>
+
+<p>Finally, it’d be remiss if I didn’t tip my hat to those at Google supporting Open Source in general, and in particular those pushing the GSoC itself, which seems to me, to be a force for good.</p>
+
+
+      </section>
+
+    </div>
+
+    
+      <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-105580431-1', 'auto');
+        ga('send', 'pageview');
+      </script>
+    
+  </body>
+</html>

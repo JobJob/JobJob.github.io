@@ -1,1 +1,15 @@
+google_analytics: UA-105580431-1
+show_downloads: false
 theme: jekyll-theme-midnight
+
+title: Best Internet Webs Page
+description: Joel Mason
+
+link_text_1: home
+link_url_1: /
+link_text_2: code
+link_url_2: https://github.com/jobjob
+link_text_3: posts
+link_url_3: /posts
+link_text_4: about
+link_url_4: /about
